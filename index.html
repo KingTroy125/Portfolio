@@ -1,27 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
     <!-- Navbar -->
+    <header>
     <nav class="navbar">
         <div class="logo">TRISTAN</div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Projects</a></li>
-            <li><a href="#portfolio">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
 
+        <div id="menu" class="hamburger-menu">
+            <svg
+              width="35px"
+              height="35px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 18L20 18"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M4 12L20 12"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M4 6L20 6"
+                stroke="#ffffff"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+    
+          <!-- Mobile Nav -->
+          <div id="nav-mobile" class="mobile-nav">
+            <div id="close-mobile" class="close">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: none;
+                      stroke: #ffffff;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-width: 2px;
+                    }
+                  </style>
+                </defs>
+    
+                <title />
+    
+                <g id="cross">
+                  <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+    
+                  <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+                </g>
+              </svg>
+            </div>
+            <ul>
+              <li><a class="nav-link" href="#home">Home</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#projects">Projects</a></li>
+              <li><a class="nav-link" href="#skills">Skills</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+    </nav>
+    </header>
     <main>
         <!-- Hero Section -->
         <section id="home" data-aos="fade-up">
@@ -42,7 +115,7 @@
         </section>
 
         <!-- About Section -->
-        <section id="about">
+        <section class="about" id="about">
             <div class="container">
                 <h2>About Me</h2>
                 <div class="about-content">
@@ -71,11 +144,23 @@
                         </div>
                     </div>
                 </div>
+                </br></br></br></br></br></br></br></br>
+                <div class="content">
+                    <div class="text-wrapper" data-aos="flip-up">
+                        <div class="text">
+                        <h1>TRISTAN PORTFOLIO<span></span></h1>
+                        <h1>TRISTAN PORTFOLIO<span></span></h1>
+                        </div>
+                        <div class="text">
+                        <h1>TRISTAN PORTFOLIO<span></span></h1>
+                        <h1>TRISTAN PORTFOLIO<span></span></h1>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
         <!-- Projects Section -->
-        <section id="services">
+        <section id="projects">
             <div class="container">
                 <h2>Projects</h2>
                 <div class="projects-grid">
@@ -114,7 +199,7 @@
         </section>
 
         <!-- Skills Section -->
-        <section id="portfolio" class="skills-section slide-in-right">
+        <section id="skills" class="skills-section slide-in-right">
             <div class="container">
                 <h2>Skills</h2>
                 <div class="skills-grid">
@@ -205,8 +290,14 @@
             <p>&copy; 2024 Tristan. All rights reserved.</p>
         </div>
     </footer>
-</body>
-<script>
-    AOS.init();
-  </script>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
