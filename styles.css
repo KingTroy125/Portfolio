@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto Mono', 'regular';
     line-height: 1.6;
     padding-top: 70px;
     background: #000;
@@ -487,6 +487,7 @@ section {
     background: #000; /* Fallback background */
 }
 
+/* Spline 3d Object for a next Update*//*
 .spline-container {
     position: absolute;
     top: 0;
@@ -523,6 +524,7 @@ section {
 .spline-container iframe.loaded + .spline-container::before {
     opacity: 0;
 }
+*/
 
 .hero-content {
     position: relative;
@@ -587,44 +589,41 @@ section {
     line-height: 1.8;
     color: #ccc;
 }
-
   
-
-  
-  .about .container .content .text-wrapper {
+.about .container .content .text-wrapper {
     position: absolute;
     bottom: 2rem;
     left: 0;
     display: flex;
     gap: 2rem;
-  }
+}
   
-  .about .container .content .text-wrapper .text {
+.about .container .content .text-wrapper .text {
     display: flex;
     flex-shrink: 0;
     gap: 2rem;
     animation: marquee 8s linear infinite;
-  }
+}
   
-  .about .container .content .text-wrapper .text h1 {
-    font: italic bold 9rem "IBM Plex Sans", sans-serif;
+.about .container .content .text-wrapper .text h1 {
+    font: italic bold 9rem "", sans-serif;
     white-space: nowrap;
-  }
+}
   
-  .about .container .content .text-wrapper .text h1 span {
+.about .container .content .text-wrapper .text h1 span {
     color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: var(--white);
-  }
+}
   
-  @keyframes marquee {
+@keyframes marquee {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(-100%);
     }
-  }
+}
   
 
 
