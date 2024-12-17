@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+section {
+    padding: 150px 0; /* Increased padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    p {
+        font-size: 1.5rem; /* Increased font size */
+        line-height: 2;
+        color: #ccc;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 900px; /* Increased max-width */
+    }
+
+    &:nth-of-type(1) {
+        border-bottom: 2px solid black; /* Thicker border */
+    }
+
+    font-family: 'Bebas Neue';
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 60px; /* Increased padding */
+    width: 100%;
+    
+    h2 {
+        font-size: 3rem; /* Increased font size */
+    }
+}
+
+.hero-section {
+    position: relative;
+    min-height: 120vh; /* Increased height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.about-section {
+    display: grid;
+    place-content: center;
+    
+    h2 {
+        font-size: 3rem; /* Increased font size */
+    }
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; /* Increased gap */
+}
+
+.about-text {
+    flex: 1;
+    color: white;
+}
+
+.about-image {
+    flex: 0 0 400px; /* Increased image width */
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.about-text p {
+    font-size: 1.3rem; /* Increased font size */
+    line-height: 2;
+    color: #ccc;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 900px; /* Increased max-width */
+}
+
+.card3d {
+    width: 100%;
+    height: 500px; /* Increased height */
+    perspective: 1200px; /* Increased perspective */
+    border-radius: 20px; /* Increased border-radius */
+    cursor: pointer;
+}
+
+.card3d-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+}
+
+.card3d-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px; /* Increased border-radius */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increased box shadow */
+}
+
+/* 3D Hover Effect */
+.card3d:hover .card3d-inner {
+    transform: rotateY(15deg) rotateX(10deg); /* Larger hover effect */
+    box-shadow: 
+        -30px 30px 40px rgba(0, 0, 0, 0.3),
+        0 0 30px rgba(255, 255, 255, 0.2); /* Larger shadow */
+}
+
+/* Smooth reset when not hovering */
+.card3d-inner {
+    transform: rotateY(0) rotateX(0);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Optional: Add floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px); /* Larger float */
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.card3d {
+    animation: float 6s ease-in-out infinite;
+}

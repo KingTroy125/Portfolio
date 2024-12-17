@@ -1,0 +1,77 @@
+.skills-section-text {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.skills-title {
+    font-size: 3.5rem;
+    margin-bottom: 60px;
+    position: relative;
+    opacity: 1; /* Default visibility */
+}
+
+.skills-title::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    color: #666;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-item {
+    position: relative;
+    width: calc(33.333% - 20px);
+    min-width: 200px;
+    opacity: 1; /* Ensure visibility if no JS */
+    transform: translateY(0);
+}
+
+.skill-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.skill-level-container {
+    position: relative;
+    height: 10px;
+    background-color: #5d5d5d;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #ffffff;
+    width: 0; /* Start at 0 for animation */
+    border-radius: 5px;
+}
+
+.skill-level-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+
+body {
+    font-family: 'Bebas Neue';
+    background-color: black;
+    padding-top: 70px;
+    color: white;
+}
+
+
+header {
+    display: grid;
+    place-content: center;
+    height: 20vh;
+}
+
+h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    line-height: 5.9rem;
+    color: white;
+}
+
+.char {
+    transform: translateY(115px);
+    transition: transform .5s;
+}

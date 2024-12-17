@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+
+body {
+    font-family: 'Bebas Neue';
+    background-color: black;
+    line-height: 1.6;
+    padding-top: 70px;
+    color: white;
+}
+
+
+header {
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    line-height: 5.9rem;
+    color: white;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide desktop menu */
+    }
+
+    .hamburger-menu {
+        display: block; /* Display the hamburger icon */
+    }
+
+    .hero-section {
+        padding: 20px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
