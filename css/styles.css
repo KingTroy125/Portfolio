@@ -43,16 +43,14 @@ h1 {
 
     .hero-section {
         padding: 20px;
+        margin: 0;
+        h2 {
+            font-size: 1.2rem;
+        }
     }
 
     .about-content {
         flex-direction: column;
-    }
-
-    .about-image img {
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
     }
 
     .skills-list {
@@ -62,4 +60,17 @@ h1 {
         gap: 10px;
     }
 
+    .contact-section {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .projects-section {
+        padding: 20px;
+        margin: 0;
+        align-items: center;
+    }
+
+
 }
+
