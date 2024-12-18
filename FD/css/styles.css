@@ -35,3 +35,22 @@ h1 {
     transform: translateY(115px);
     transition: transform .5s;
 }
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide desktop menu */
+    }
+
+    .hamburger-menu {
+        display: block; /* Display the hamburger icon */
+    }
+
+    .header {
+        padding: 20px;
+        align-items: center;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+}
