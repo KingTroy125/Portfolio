@@ -29,7 +29,7 @@
         <nav class="navbar">
             <div class="logo">TRISTAN</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#work">work</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -96,7 +96,7 @@
                   </svg>
                 </div>
                 <ul>
-                  <li><a class="nav-link" href="#home">Home</a></li>
+                  <li><a class="nav-link" href="#hero">Home</a></li>
                   <li><a class="nav-link" href="#about">About</a></li>
                   <li><a class="nav-link" href="#work">work</a></li>
                   <li><a class="nav-link" href="#skills">Skills</a></li>
@@ -110,9 +110,15 @@
     <main>
 
     <section id="hero" class="hero-section">
-        <div class="hero-content">
+        <div class="hero-content" data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
             <header class="reveal-type" data-bg-color="#353535" data-fg-color="white">
-                <h1>Tristan Hendricks</h1>
+                <h1 class="name">
+                    <span class="first-name">TRISTAN</span>
+                    <span class="last-name">HENDRICKS</span>
+                  </h1>                  
                 <h2>Frontend Developer | Graphic Designer | Software Developer</h2>
                 <h3>@Kingtroy125</h3>
             </header>
@@ -121,10 +127,13 @@
 
     <section id="about" class="about-section">
         <div class="container">
-            <h2 align="center">.About Me</h2></br>
+            <h2 align="center" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0">.About Me</h2></br>
             <div class="about-content">
                 <div class="about-text">
-                    <p class="reveal-type" data-bg-color="#353535" data-fg-color="white">
+                    <p class="reveal-type" data-bg-color="#353535" data-fg-color="white" data-aos="fade-down">
                         Hi, I'm Tristan Hendricks, a passionate and innovative Web Developer and 
                         Front-End Designer. My journey in coding began with a desire to turn creative ideas 
                         into functional, visually stunning digital experiences. Over the years, 
@@ -141,7 +150,7 @@
                         impression with every project I undertake and inspire others through my work.
                     </p>
                 </div>
-                <div class="about-image">
+                <div class="about-image" data-aos="fade-down">
                     <div class="card3d">
                         <div class="card3d-inner">
                             <img src="./assets/Tristan.jpeg" 
@@ -161,14 +170,17 @@
         </div>
     </div>
     </section>
-    <section id="work">
+    <section id="work" class="project-section">
         <div class="container">
-            <h2 align="center">.Projects</h2>
+            <h2 align="center" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0">.Projects</h2>
             <div class="projects-grid">
                 <!-- Row 1 -->
-                <div class="project-card" >
+                <div class="project-card" data-aos="flip-right">
                     <div class="parallax-image" data-speed="1.2">
-                        <img src="./assets/Tristan.jpeg" alt="Project 1 Image">
+                        <img src="https://github.com/KingTroy125/Portfolio/blob/main/Tristan.jpeg?raw=true" alt="Project 1 Image">
                     </div>
                     <div class="project-content">
                         <h3 class="reveal-type" data-bg-color="#353535" data-fg-color="white">Front-End Developer</h3>
@@ -179,28 +191,28 @@
                     </div>
                 </div>
                 <!-- Row 2 -->
-                <div class="project-card">
+                <div class="project-card" data-aos="flip-right">
+                    <div class="parallax-image" data-speed="1.2">
+                        <img src="./assets/GD.png" alt="Project 1 Image">
+                    </div>
                     <div class="project-content">
                         <h3 class="reveal-type" data-bg-color="#353535" data-fg-color="white">Graphic Designer</h3>
                         <p class="reveal-type" data-bg-color="#353535" data-fg-color="white">Mobile-first responsive website with modern animations</p>
                         <div class="project-links">
-                            <a href="./GD/index.html" class="reveal-type" data-bg-color="#353535" data-fg-color="white">Live Demo</a>
+                            <a href="./GD/index.html" class="reveal-type" data-bg-color="#353535" data-fg-color="white">See More</a>
                         </div>
-                    </div>
-                    <div class="parallax-image" data-speed="1.5">
-                        <img src="./assets/GD.png" alt="Project 2 Image">
                     </div>
                 </div>
                 <!-- Row 3 -->
-                <div class="project-card">
+                <div class="project-card" data-aos="flip-right">
                     <div class="parallax-image" data-speed="1.8">
-                        <img src="./assets/Tristan.jpeg" alt="Project 3 Image">
+                        <img src="https://github.com/KingTroy125/Portfolio/blob/main/Tristan.jpeg?raw=true" alt="Project 3 Image">
                     </div>
                     <div class="project-content">
                         <h3 class="reveal-type" data-bg-color="#353535" data-fg-color="white">Project 3</h3>
                         <p class="reveal-type" data-bg-color="#353535" data-fg-color="white">E-commerce platform with payment integration</p>
                         <div class="project-links">
-                            <a href="#" class="reveal-type" data-bg-color="#353535" data-fg-color="white">Live Demo</a>
+                            <a href="#" class="reveal-type" data-bg-color="#353535" data-fg-color="white">See More</a>
                         </div>
                     </div>
                 </div>
@@ -219,19 +231,19 @@
                     </div>
                     <div class="skill-level-text">Advanced (90%)</div>
                 </div>
-                <div class="skill-item" data-skill-level="95%">
+                <div class="skill-item" data-skill-level="75%">
                     <div class="skill-name">CSS3</div>
                     <div class="skill-level-container">
                         <div class="skill-level-bar"></div>
                     </div>
-                    <div class="skill-level-text">Expert (95%)</div>
+                    <div class="skill-level-text">Expert (75%)</div>
                 </div>
-                <div class="skill-item" data-skill-level="85%">
+                <div class="skill-item" data-skill-level="70%">
                     <div class="skill-name">JavaScript</div>
                     <div class="skill-level-container">
                         <div class="skill-level-bar"></div>
                     </div>
-                    <div class="skill-level-text">Advanced (85%)</div>
+                    <div class="skill-level-text">Advanced (70%)</div>
                 </div>
                 <div class="skill-item" data-skill-level="75%">
                     <div class="skill-name">React</div>
@@ -259,40 +271,15 @@
     </section>
 
     <!-- Quotes Section -->
-    <section id="quotes" class="quotes-section">
+    <section id="quotes" class="quotes-section" data-aos="flip-right">
         <div class="container">
             <h2 class="section-title">.Quote</h2>
             <blockquote class="quote"><p class="reveal-type" data-bg-color="#353535" data-fg-color="white">"Design is not just what it looks like and feels like. Design is how it works." – Steve Jobs</p></blockquote>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2 align="center">.Contact Me</h2>
-        </br>
-            <div class="contact-content">
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-
 <!-- Footer -->
-<footer class="footer">
+<footer id="contact" class="footer">
     <div class="footer-content">
         <div class="footer-section">
             <h3>About Us</h3>
@@ -302,7 +289,7 @@
         <div class="footer-section">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="#home">Home</a></li>
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#work">work</a></li>
                 <li><a href="#skills">skills</a></li>
@@ -359,4 +346,5 @@
 <script src="./js/lenis.js"></script>
 <script src="./js/script.js"></script>
 <script src="./js/mobilenavbar.js"></script>
+<script src="server.js"></script>
 </html>
