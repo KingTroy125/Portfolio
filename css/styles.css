@@ -158,7 +158,7 @@ section {
     }
 
     .hero-section {
-        padding: 20px;
+        padding: 10px;
         margin: 0;
         h2 {
             font-size: 1rem;
@@ -177,12 +177,12 @@ section {
     }
 
     .contact-section {
-        padding: 20px;
+        padding: 10px;
         margin: 0;
     }
 
     .projects-section {
-        padding: 20px;
+        padding: 10px;
         margin: 0;
         align-items: center;
         max-width: 80%;
@@ -194,15 +194,17 @@ section {
         flex-direction: column;
         text-align: center;
         gap: 20px;
+        padding: 10px;
     }
 
     .text-content .image-content {
         width: 100%;
         flex: none;
+        padding: 10px;
     }
 
     .image-content img {
-        max-width: 80%;
+        max-width: 100%;
         height: auto;
         margin: 0 auto;
         border-radius: 15px;
@@ -210,8 +212,9 @@ section {
     }
 
     .about-text {
-        padding: 10px 20px;
+        padding: 5px 10px;
     }
 
 }
+
 
