@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--Style-->
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/mobilenavbar.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/quote.css">
+    
+    <title>Tristan Hendricks | Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">TRISTAN</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    
+            <div id="menu" class="hamburger-menu">
+                <svg
+                  width="35px"
+                  height="35px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 18L20 18"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M4 12L20 12"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M4 6L20 6"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+        
+              <!-- Mobile Nav -->
+              <div id="nav-mobile" class="mobile-nav">
+                <div id="close-mobile" class="close">
+                  <svg
+                    width="800px"
+                    height="800px"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: none;
+                          stroke: #ffffff;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                          stroke-width: 2px;
+                        }
+                      </style>
+                    </defs>
+        
+                    <title />
+        
+                    <g id="cross">
+                      <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+        
+                      <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+                    </g>
+                  </svg>
+                </div>
+                <ul>
+                  <li><a class="nav-link" href="#home">Home</a></li>
+                  <li><a class="nav-link" href="#about">About</a></li>
+                  <li><a class="nav-link" href="#Work">Work</a></li>
+                  <li><a class="nav-link" href="#skills">Skills</a></li>
+                  <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section" data-aos="zoom-in-down" data-aos-delay="300">
+            <div class="container">
+                <div class="hero-content" >
+                    <h3 class="reveal-type" data-bg-color="#353535" data-fg-color="white">Hi I'm Tristan.</h3>
+                    <h2>Front-End Developer, Graphic Designer, Software Developer</h2>
+                    <div>
+                        <p class="reveal-type" data-bg-color="#353535" data-fg-color="white">I code whatever helps make my life easier.</p>
+                    </div>
+                    <div class="button-link">
+                        <a href="" class="reveal-type" data-bg-color="#353535" data-fg-color="white">Say Hi</a>
+                    </div>
+                    <div><!--Links--></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="text-content">
+                <h2 data-aos="fade-right" class="reveal-type" data-bg-color="#353535" data-fg-color="white" >About Me</h2>
+                <p>
+                    Hi, I’m Tristan Hendricks, a versatile frontend developer, graphic designer, and software developer.
+                     I bring ideas to life through sleek user interfaces, compelling visuals, and robust software solutions. With a passion for innovation and creativity,
+                     I aim to deliver exceptional digital experiences that leave a lasting impact. Let’s build something incredible together!
+                </p>
+                </br>
+                <div class="button-link" data-aos="fade-right">
+                    <a href="./assets/cv/CV.pdf" download="Tristan_Hendricks_CV.pdf" class="reveal-type" data-bg-color="#353535" data-fg-color="white">Download CV</a>
+                </div>
+            </div>
+            <div class="image-content" data-aos="fade-left">
+                <img src="./assets/Tristan.jpeg" alt="Image of Me">
+            </div>    
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="work" class="project-section">
+            <div class="container">
+                <h2 data-aos="zoom-in-down" data-aos-delay="300">Projects</h2>
+                <div class="projects-grid">
+                    <!-- Row 1 -->
+                    <div class="project-card" data-aos="flip-right">
+                        <div class="parallax-image" data-speed="1.2">
+                            <img src="./assets/ReactWeb.png" alt="Project 1 Image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="reveal-type" data-bg-color="#353535" data-fg-color="white">Front-End Developer</h3>
+                            <p class="reveal-type" data-bg-color="#353535" data-fg-color="white">A full-stack web application built with React and Node.js</p>
+                            <div class="project-links">
+                                <a href="https://github.com/KingTroy125/portfolio-react" class="reveal-type" data-bg-color="#353535" data-fg-color="white">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="project-card" data-aos="flip-right">
+                        <div class="parallax-image" data-speed="1.2">
+                            <img src="./assets/GD.png" alt="Project 1 Image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="reveal-type" data-bg-color="#353535" data-fg-color="white">Graphic Designer</h3>
+                            <p class="reveal-type" data-bg-color="#353535" data-fg-color="white">Mobile-first responsive website with modern animations</p>
+                            <div class="project-links">
+                                <a href="https://www.behance.net/kingtroy2" class="reveal-type" data-bg-color="#353535" data-fg-color="white">See More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row 3 --><!--
+                    <div class="project-card" data-aos="flip-right">
+                        <div class="parallax-image" data-speed="1.8">
+                            <img src="https://github.com/KingTroy125/Portfolio/blob/main/Tristan.jpeg?raw=true" alt="Project 3 Image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="reveal-type" data-bg-color="#353535" data-fg-color="white">Project 3</h3>
+                            <p class="reveal-type" data-bg-color="#353535" data-fg-color="white">E-commerce platform with payment integration</p>
+                            <div class="project-links">
+                                <a href="../404 PAGE/index.html" class="reveal-type" data-bg-color="#353535" data-fg-color="white">See More</a>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+        </br>
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section-text">
+            <div class="skills-container">
+                <h2 class="skills-title">Skills</h2>
+                <div class="skills-list">
+                    <div class="skill-item" data-skill-level="90%">
+                        <div class="skill-name">HTML5</div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-bar"></div>
+                        </div>
+                        <div class="skill-level-text">Advanced (90%)</div>
+                    </div>
+                    <div class="skill-item" data-skill-level="65%">
+                        <div class="skill-name">CSS3</div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-bar"></div>
+                        </div>
+                        <div class="skill-level-text">Expert (65%)</div>
+                    </div>
+                    <div class="skill-item" data-skill-level="50%">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-bar"></div>
+                        </div>
+                        <div class="skill-level-text">Advanced (50%)</div>
+                    </div>
+                    <div class="skill-item" data-skill-level="75%">
+                        <div class="skill-name">React</div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-bar"></div>
+                        </div>
+                        <div class="skill-level-text">Intermediate (75%)</div>
+                    </div>
+                    <div class="skill-item" data-skill-level="50%">
+                        <div class="skill-name">Photoshop</div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-bar"></div>
+                        </div>
+                        <div class="skill-level-text">Advanced (50%)</div>
+                    </div>
+                    <div class="skill-item" data-skill-level="80%">
+                        <div class="skill-name">Figma</div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-bar"></div>
+                        </div>
+                        <div class="skill-level-text">Proficient (80%)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </br></br></br></br>
+        <!-- Quotes Section -->
+        <section id="quotes" class="quotes-section">
+            <div class="container">
+                <h2 class="section-title" data-aos="zoom-in-down" data-aos-delay="300">Quote</h2>
+                <blockquote class="quote">
+                <p class="reveal-type" data-bg-color="#353535" data-fg-color="white" data-aos="zoom-in-down" data-aos-delay="300">
+                "Design is not just what it looks like and feels like. Design is how it works." – Steve Jobs</p>
+                </blockquote>
+            </div>
+        </section>
+  
+    </main>
+</br></br>
+    <footer>
+        <div id="contact" class="container" data-aos="zoom-in-down" data-aos-delay="300">
+            <div class="content"> 
+                <h2></h2>
+                <div class="social">
+                    <a href="https://www.behance.net/kingtroy2" target="_blank" class="logo">
+                        <box-icon type="logo" name="behance"></box-icon>
+                    </a>
+                    <a href="https://github.com/KingTroy125" target="_blank" class="logo">
+                        <box-icon type='logo' name='github'></box-icon>
+                    </a>
+                    <div class="logo">
+                        <box-icon type='logo' name='dribbble'></box-icon>
+                    </div>
+                    <a href="https://medium.com/@TristanHendricks" target="_blank" class="logo">
+                        <box-icon name='medium' type='logo' ></box-icon>
+                    </a>
+                </div>
+                <p>&copy;2025 Tristan. All rights reserved. <span id="year"></span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+    <!-- Script -->
+    <script src="./js/mobilenavbar.js"></script>
+    
+
+    <!--GSAP-->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./js/skills.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@latest/bundle.min.js"></script>
+
+    <!--Lenis-->
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script> 
+    <script src="./js/lenis.js"></script>
+
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+</html>
