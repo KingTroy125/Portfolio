@@ -151,7 +151,7 @@ section {
     }
 
     .header {
-        padding: 20px;
+        padding: auto;
         align-items: center;
         margin: 0;
         font-size: 1rem;
@@ -204,7 +204,7 @@ section {
     }
 
     .image-content img {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
         margin: 0 auto;
         border-radius: 15px;
@@ -212,9 +212,8 @@ section {
     }
 
     .about-text {
-        padding: 5px 10px;
+        padding: 10px;
     }
 
 }
-
 
