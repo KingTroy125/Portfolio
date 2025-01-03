@@ -151,7 +151,7 @@ section {
     }
 
     .header {
-        padding: auto;
+        padding: 10px;
         align-items: center;
         margin: 0;
         font-size: 1rem;
@@ -160,9 +160,10 @@ section {
     .hero-section {
         padding: 10px;
         margin: 0;
-        h2 {
-            font-size: 1rem;
-        }
+    }
+
+    .hero-section h2 {
+        font-size: 1rem;
     }
 
     .about-content {
@@ -182,7 +183,7 @@ section {
     }
 
     .projects-section {
-        padding: 10px;
+        padding: 15px;
         margin: 0;
         align-items: center;
         max-width: 80%;
@@ -194,13 +195,13 @@ section {
         flex-direction: column;
         text-align: center;
         gap: 20px;
-        padding: 10px;
+        padding: 15px;
     }
 
     .text-content .image-content {
         width: 100%;
         flex: none;
-        padding: 10px;
+        padding: 15px;
     }
 
     .image-content img {
@@ -216,4 +217,3 @@ section {
     }
 
 }
-
